@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAD4vzkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:06:02.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -79,12 +96,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:59:24.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T02:59:24.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ModelToDataModel.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\ModelToDataModel.cs",
               "RelativeDocumentMoniker": "AutoMapperProfile\\ModelToDataModel.cs",
@@ -92,12 +108,11 @@
               "RelativeToolTip": "AutoMapperProfile\\ModelToDataModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:59:13.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T02:59:13.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DataModelToModel.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\DataModelToModel.cs",
               "RelativeDocumentMoniker": "AutoMapperProfile\\DataModelToModel.cs",
@@ -105,12 +120,11 @@
               "RelativeToolTip": "AutoMapperProfile\\DataModelToModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:59:12.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T02:59:12.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Status.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\Status.cs",
               "RelativeDocumentMoniker": "Enums\\Status.cs",
@@ -118,12 +132,11 @@
               "RelativeToolTip": "Enums\\Status.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:56:01.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T02:56:01.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Roles.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\Roles.cs",
               "RelativeDocumentMoniker": "Enums\\Roles.cs",
@@ -135,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AuctionStatus.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\AuctionStatus.cs",
               "RelativeDocumentMoniker": "Enums\\AuctionStatus.cs",
@@ -147,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserDatalModel.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\UserDatalModel.cs",
               "RelativeDocumentMoniker": "DataModel\\UserDatalModel.cs",
@@ -155,12 +168,11 @@
               "RelativeToolTip": "DataModel\\UserDatalModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T17:29:07.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T17:29:07.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuctionRepository.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DAL\\AuctionRepository.cs",
               "RelativeDocumentMoniker": "DAL\\AuctionRepository.cs",
@@ -172,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -180,8 +192,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T17:28:47.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T17:28:47.793Z"
             },
             {
               "$type": "Bookmark",
