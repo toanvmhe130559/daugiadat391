@@ -1,0 +1,233 @@
+﻿@model IEnumerable<RealEstateAuction.Models.Auction>
+@using RealEstateAuction.Enums
+@{
+    ViewData["Title"] = "Home Page";
+    var auctionStatus = "";
+    var btnType = "";
+    var startPrice = "";
+}
+<section id="banner">
+    <!-- Carousel wrapper -->
+    <div id="carousel-starter" class="carousel slide" data-bs-slide="carousel">
+        <div class="carousel-inner carousel-starter">
+            <div class="carousel-item active">
+                <div class="position-relative">
+                    <img src="https://static-images.vnncdn.net/files/publish/2023/6/19/w-nha-dat-tram-ty-hong-khanh-vietnamnet-2-1-1113.jpg"
+                         alt="bg-blog" style="object-fit: cover; height: 420px; width: 100%;">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="position-relative">
+                    <img src="https://file.maumau.vn/public/nhadatvui/0/1683260083048/a7a5221f-360d-4d93-a889-b24cf44e81e3.jpg"
+                         alt="bg-blog" style="object-fit: cover; height: 420px; width: 100%;">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="position-relative">
+                    <img src="https://vnn-imgs-f.vgcloud.vn/2021/01/12/17/ha-do-an-khanh-vietnamnet.jpg"
+                         alt="bg-blog" style="object-fit: cover; height: 420px; width: 100%;">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-starter"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-starter"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<section id="main-content" class="border-1 border-top border-black py-4 px-5">
+    <div class="max-width-section">
+        <div class="d-flex gap-4 align-items-center">
+            <h3 class="fw-lighter mb-0">Danh mục đấu giá bất động sản đang hot</h3>
+            <button class="btn btn-outline-secondary rounded-pill fs-6">
+                Xem tất cả
+            </button>
+        </div>
+        <div class="mt-3 row">
+            <div class=" col-sm-3 col-6">
+                <div class="ratio ratio-1x1 rounded-2">
+                    <img class="object-fit-cover w-100 rounded-2"
+                         src="https://luatnhandan.vn/wp-content/uploads/2019/12/nha-o-la-gi-va-nhung-quy-dinh-ve-quyen-su-dung-nha-o-1-e1577703894295.jpg"
+                         alt="">
+                </div>
+                <div class="fs-6 fw-bold mt-2">
+                    Nhà ở
+                </div>
+            </div>
+            <div class="col-sm-3 col-6">
+                <div class="ratio ratio-1x1 rounded-2">
+                    <img class="object-fit-cover w-100 rounded-2"
+                         src="https://media.vneconomy.vn/w800/images/upload/2023/03/30/chung-cu.jpeg"
+                         alt="">
+                </div>
+                <div class="fs-6 fw-bold mt-2">
+                    Chung cư
+                </div>
+            </div>
+            <div class="col-sm-3 col-6">
+                <div class="ratio ratio-1x1 rounded-2">
+                    <img class="object-fit-cover w-100 rounded-2"
+                         src="https://hbh.vn/wp-content/uploads/2019/10/dat-nen-la-gi.png"
+                         alt="">
+                </div>
+                <div class="fs-6 fw-bold mt-2">
+                    Đất nền
+                </div>
+            </div>
+            <div class=" col-sm-3 col-6">
+                <div class="ratio ratio-1x1 rounded-2">
+                    <img class="object-fit-cover w-100 rounded-2"
+                         src="https://vcdn-kinhdoanh.vnecdn.net/2019/12/23/image002-8881-1577094450.png"
+                         alt="">
+                </div>
+                <div class="fs-6 fw-bold mt-2">
+                    Căn hộ cao cấp
+                </div>
+            </div>
+        </div>
+        <div class="d-flex gap-4 align-items-center mt-5">
+            <h3 class="fw-lighter mb-0">Phiên đấu giá gợi ý</h3>
+        </div>
+        <div class="mt-2 pt-3" style="border-top: 1px solid #dde2e4;">
+            <div class="row">
+                @if (Model.Count() == 0)
+                {
+                    <div class="d-flex justify-content-center">
+                        <p class="text-danger">Không có phiên đấu giá nào</p>
+                    </div>
+                }
+                @foreach (var item in Model)
+                {
+                    <div class="col-xs-12 col-sm-4 py-2">
+                        <div class="row" style="border: 1px solid #bac4c9;">
+                            <div class="col-6 position-relative">
+                                <img style="max-width: 100%; max-height: 180px;" class=""
+                                     src="@Url.Content(item.Images.ElementAt(0).Url)"
+                                     alt="">
+                            </div>
+                            <div class="col-6">
+                                <div class="fs-6 fw-semibold truncate-2-line">
+                                    @if (item.Title.Length > 20)
+                                    {
+                                        item.Title = item.Title.Substring(0, 20) + "...";
+                                    }
+                                    @item.Title
+                                </div>
+                                <div class="fs-6 fw-lighter truncate-2-line mt-1">
+                                    Người đăng: @item.User.FullName
+                                </div>
+                                <div class="fs-6 fw-light truncate-2-line mt-2">
+                                    @item.StartTime
+                                </div>
+                                <a class="btn btn-danger-secondary mt-3 w-100" href="/auction-details?auctionId=@item.Id">
+                                    Chi tiết
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <h2 class="mt-5 mb-2 fw-light">Phiên đấu giá mới đăng</h2>
+        <div>
+            @if (Model.Count() == 0)
+            {
+                <div class="d-flex justify-content-center">
+                    <p class="text-danger">Không có phiên đấu giá nào</p>
+                </div>
+            }
+            <!-- Array of upcomming auctions -->
+            @foreach (var item in Model)
+            {
+                <div class="pt-3" style="border-top: 1px solid #dde2e4;">
+                    <div class="row pb-3">
+                        <div class="col-md-3 col-sm-2 col-xs-3">
+                            <div class="w-100 ratio ratio-1x1" style="border: 1px solid #dde2e4;">
+                                <img class="object-fit-contain"
+                                     src="@Url.Content(item.Images.ElementAt(0).Url)"
+                                     alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 col-xs-9">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <div class="fs-6 fw-semibold truncate-2-line">
+                                        @item.Title
+                                    </div>
+                                    <div class="fs-6 fw-lighter truncate-2-line mt-1">
+                                        By: @item.User.FullName
+                                    </div>
+                                    <div class="fs-6 fw-light truncate-2-line mt-2">
+                                        Thời gian đấu giá: @item.StartTime - @item.EndTime
+                                    </div>
+                                    <div class="fs-6 fw-light truncate-2-line mt-2">
+                                        @if (item.StartPrice > 0)
+                                        {
+                                            startPrice = item.StartPrice.ToString("N1", System.Globalization.CultureInfo.InvariantCulture) + "đ";
+                                        }
+                                        else
+                                        {
+                                            startPrice = "Chưa xác định";
+                                        }
+                                        Giá: @startPrice - @item.EndPrice.ToString("N1", System.Globalization.CultureInfo.InvariantCulture)đ
+                                    </div>
+                                    <div class="fs-6 fw-light truncate-2-line mt-2">
+                                        @item.Address
+                                    </div>
+                                    <div class="fs-6 fw-light truncate-2-line mt-2">
+                                        Số lượng người tham gia: @item.Users.Count()
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-solid fa-wifi"></i>
+                                        <div class="fs-6 fw-light truncate-2-line">
+                                            Đấu giá trực tiếp
+                                        </div>
+                                    </div>
+                                    @if(item.StartTime > DateTime.Now){
+                                        auctionStatus = "Sắp diễn ra";
+                                        btnType = "btn-warning";
+                                    }
+                                    else
+                                    {
+                                        auctionStatus = "Đang diễn ra";
+                                        btnType = "btn-danger";
+                                    }
+                                    @if(item.Status == (int) AuctionStatus.Chấp_nhân)
+                                    {
+                                        <a class="btn @btnType mt-3 w-100">
+                                            @auctionStatus
+                                        </a>
+                                    } else
+                                    {
+                                        <a class="btn btn-secondary mt-3 w-100">
+                                            Kết thúc
+                                        </a>
+                                    }
+
+                                    <a class="text-decoration-none cursor-pointer mt-3" href="/auction-details?auctionId=@item.Id">
+                                        Tham gia đấu giá
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="pt-3 d-flex justify-content-center align-items-center"
+             style="border-top: 1px solid #dde2e4;">
+            <a href="/list-auction" class="text-decoration-none cursor-pointer cursor-pointer">
+                Xem tất cả các phiên đấu giá
+            </a>
+        </div>
+    </div>
+</section>
