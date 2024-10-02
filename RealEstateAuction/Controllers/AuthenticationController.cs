@@ -92,7 +92,40 @@ namespace RealEstateAuction.Controllers
                 return Redirect(curentUrl);
             }
         }
+        [HttpPost("forgot-password")]
+        public IActionResult ForgotPassword()
+        {
+            var user = userDAO.GetUserByEmail(Request.Form["email"]);
+            if (user == null)
+            {
+                TempData["Message"] = "Email does not exist!";
+                return Redirect("home");
+            }
+            else
+            {
+                string email = Request.Form["email"];
 
-        
+                // Generate a random OTP (6-digit number)
+                Random random = new Random();
+                int otpNumber = random.Next(0, 1000000);
+                string otp = otpNumber.ToString("D6");
+
+                // Save the OTP into session
+                HttpContext.Session.SetString("Otp", otp);
+
+                // Save user email into session
+                HttpContext.Session.SetString("email", email);
+
+                //send email
+                _emailSender.SendEmailAsync(email, "Reset your password!",
+                    "\nEnter OTP to change your password!" +
+                    "\nYour OTP: " + otp);
+
+                //redirect to enter otp page
+                return Redirect("enter-otp");
+            }
+        }
+
+
     }
 }
