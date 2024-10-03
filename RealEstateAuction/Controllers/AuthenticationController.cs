@@ -125,6 +125,11 @@ namespace RealEstateAuction.Controllers
                 return Redirect("enter-otp");
             }
         }
+        [HttpGet("reset-password")]
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
 
 
     }

@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "~/Views/Shared/EnterOtpLayout.cshtml";
+    ViewData["Title"] = "Enter OTP";
+}
+<div class="container height-100 d-flex justify-content-center align-items-center">
+    <div class="position-relative">
+        <div class="card p-2 text-center">
+            <h6>
+                Vui lòng nhâp OTP được gửi về mail
+                <br>
+                để xác minh tài khoản của bạn
+            </h6>
+            <div>
+                <span>Một OTP đã được gửi đến thư của bạn! Nhập OTP để lấy lại mật khẩu!</span>
+            </div>
+
+            <form action="enter-otp" method="post">
+                <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2">
+                    <input class="m-2 text-center form-control rounded" type="text" maxlength="6" name="otp" />
+                </div>
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-danger px-4 validate">Xác nhận</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
