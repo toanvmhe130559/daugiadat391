@@ -130,7 +130,22 @@ namespace RealEstateAuction.Controllers
         {
             return View();
         }
-
+        [HttpPost("enter-otp")]
+        public IActionResult EnterOtp(IFormCollection formCollection)
+        {
+            string otp = formCollection["otp"];
+            //check otp is correct or not
+            if (HttpContext.Session.GetString("Otp").Equals(otp))
+            {
+                HttpContext.Session.Remove("Otp");
+                return Redirect("reset-password");
+            }
+            else
+            {
+                TempData["Message"] = "Wrong OTP!";
+                return View();
+            }
+        }
 
     }
 }
