@@ -24,7 +24,20 @@ namespace RealEstateAuction.DAL
         {
             return context.Users.SingleOrDefault(u => u.Email.Equals(email) && u.Password.Equals(password) && u.Status == (Byte)Status.Active);
         }
-       
+        public bool UpdateUser(User user)
+        {
+            try
+            {
+                context.Users.Update(user);
+                context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
         public void UpdatePassword(string email, string newPwd)
         {
             try
