@@ -146,6 +146,12 @@ namespace RealEstateAuction.Controllers
                 return View();
             }
         }
+        [Route("logout")]
+        public IActionResult Logout()
+        {
+            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return Redirect("home");
+        }
 
     }
 }
