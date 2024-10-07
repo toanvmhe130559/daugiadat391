@@ -84,7 +84,7 @@ namespace RealEstateAuction.Controllers
                         return Redirect("staff");
                     default:
                         return Redirect(curentUrl);
-                }
+                }              
             }
             else
             {

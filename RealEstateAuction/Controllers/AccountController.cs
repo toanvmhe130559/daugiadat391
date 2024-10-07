@@ -21,7 +21,6 @@ namespace RealEstateAuction.Controllers
             _mapper = mapper;
         }
 
-
         [HttpGet]
         [Route("profile")]
         public IActionResult Profile()
