@@ -84,7 +84,7 @@ namespace RealEstateAuction.Controllers
                         return Redirect("staff");
                     default:
                         return Redirect(curentUrl);
-                }              
+                }
             }
             else
             {
@@ -92,6 +92,56 @@ namespace RealEstateAuction.Controllers
                 return Redirect(curentUrl);
             }
         }
+
+        [HttpPost("register")]
+        public IActionResult Register()
+        {
+            //get current url
+            string curentUrl = HttpContext.Request.Headers["Referer"];
+
+            string fullName = Request.Form["fullName"];
+            string email = Request.Form["email"];
+            string pwd = Request.Form["pwd"];
+            string phone = Request.Form["phone"];
+            string date = Request.Form["dob"];
+            string address = Request.Form["address"];
+
+            User user = new User()
+            {
+                FullName = fullName,
+                Email = email,
+                Password = pwd,
+                Phone = phone,
+                Dob = DateTime.Parse(date),
+                Address = address,
+                //set role id of member is 3
+                RoleId = 3,
+                Wallet = 0,
+                Status = 1,
+            };
+
+            var exist = userDAO.GetUserByEmail(email);
+            if (exist != null)
+            {
+                TempData["Message"] = "Email already exists!";
+                ViewBag.User = user;
+            }
+            else
+            {
+                var result = userDAO.AddUser(user);
+                if (result)
+                {
+                    TempData["Message"] = "Register successful!";
+                }
+                else
+                {
+                    TempData["Message"] = "Register fail!";
+                }
+            }
+
+            return Redirect(curentUrl);
+        }
+
         [HttpPost("forgot-password")]
         public IActionResult ForgotPassword()
         {
@@ -125,11 +175,13 @@ namespace RealEstateAuction.Controllers
                 return Redirect("enter-otp");
             }
         }
-        [HttpGet("reset-password")]
-        public IActionResult ResetPassword()
+
+        [HttpGet("enter-otp")]
+        public IActionResult EnterOtp()
         {
             return View();
         }
+
         [HttpPost("enter-otp")]
         public IActionResult EnterOtp(IFormCollection formCollection)
         {
@@ -146,6 +198,23 @@ namespace RealEstateAuction.Controllers
                 return View();
             }
         }
+
+        [HttpGet("reset-password")]
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
+
+        [HttpPost("reset-password")]
+        public IActionResult ResetPassword(IFormCollection formCollection)
+        {
+            string pwd = formCollection["pwd"];
+            userDAO.UpdatePassword(HttpContext.Session.GetString("email"), pwd);
+
+            TempData["Message"] = "Reset password successful!";
+            return Redirect("home");
+        }
+
         [Route("logout")]
         public IActionResult Logout()
         {
@@ -153,5 +222,10 @@ namespace RealEstateAuction.Controllers
             return Redirect("home");
         }
 
+        [Route("access-denied")]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }
