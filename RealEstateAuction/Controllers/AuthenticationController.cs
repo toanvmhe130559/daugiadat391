@@ -12,7 +12,7 @@ namespace RealEstateAuction.Controllers
 {
     public class AuthenticationController : Controller
     {
-        UserRepository userDAO = new UserRepository();
+        UserDAO userDAO = new UserDAO();
         private readonly IEmailSender _emailSender;
 
         public AuthenticationController(IEmailSender emailSender)
@@ -222,10 +222,6 @@ namespace RealEstateAuction.Controllers
             return Redirect("home");
         }
 
-        [Route("access-denied")]
-        public IActionResult AccessDenied()
-        {
-            return View();
-        }
+        
     }
 }

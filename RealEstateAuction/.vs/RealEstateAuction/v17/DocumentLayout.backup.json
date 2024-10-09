@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\automapperprofile\\modeltodatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:automapperprofile\\modeltodatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\automapperprofile\\datamodeltomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:automapperprofile\\datamodeltomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\datamodel\\userdatalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:datamodel\\userdatalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,12 +39,64 @@
       "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\enums\\auctionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:enums\\auctionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\dal\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:dal\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\dal\\auctiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:dal\\auctiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\automapperprofile\\modeltodatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:automapperprofile\\modeltodatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\automapperprofile\\datamodeltomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:automapperprofile\\datamodeltomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\datamodel\\auctioneditdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:datamodel\\auctioneditdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\datamodel\\auctiondatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:datamodel\\auctiondatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\datamodel\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:datamodel\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\views\\admin\\managemember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:views\\admin\\managemember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\views\\admin\\managestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:views\\admin\\managestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|f:\\daugiadat_391\\daugiadat391\\realestateauction\\realestateauction.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{033F9D0C-2460-480B-8B09-92FB905862BB}|RealEstateAuction.csproj|solutionrelative:realestateauction.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,65 +114,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
-              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAD4vzkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:06:02.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-01T02:59:27.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:59:24.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModelToDataModel.cs",
-              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\ModelToDataModel.cs",
-              "RelativeDocumentMoniker": "AutoMapperProfile\\ModelToDataModel.cs",
-              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\ModelToDataModel.cs",
-              "RelativeToolTip": "AutoMapperProfile\\ModelToDataModel.cs",
+              "DocumentIndex": 6,
+              "Title": "TicketStatus.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\TicketStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\TicketStatus.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\TicketStatus.cs",
+              "RelativeToolTip": "Enums\\TicketStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:59:13.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataModelToModel.cs",
-              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\DataModelToModel.cs",
-              "RelativeDocumentMoniker": "AutoMapperProfile\\DataModelToModel.cs",
-              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\DataModelToModel.cs",
-              "RelativeToolTip": "AutoMapperProfile\\DataModelToModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:59:12.82Z"
+              "WhenOpened": "2024-10-09T09:38:05.319Z"
             },
             {
               "$type": "Document",
@@ -130,9 +132,9 @@
               "RelativeDocumentMoniker": "Enums\\Status.cs",
               "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\Status.cs",
               "RelativeToolTip": "Enums\\Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:56:01.436Z"
+              "WhenOpened": "2024-10-09T09:38:01.733Z"
             },
             {
               "$type": "Document",
@@ -144,11 +146,109 @@
               "RelativeToolTip": "Enums\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:56:00.509Z"
+              "WhenOpened": "2024-10-09T09:37:59.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "AuctionDAO.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DAL\\AuctionDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\AuctionDAO.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DAL\\AuctionDAO.cs",
+              "RelativeToolTip": "DAL\\AuctionDAO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:36:26.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:36:05.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Services\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "Services\\IEmailSender.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Services\\IEmailSender.cs",
+              "RelativeToolTip": "Services\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:38:44.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAWwFIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T05:36:25.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Services\\EmailSender.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Services\\EmailSender.cs",
+              "RelativeToolTip": "Services\\EmailSender.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:38:14.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileUpload.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Services\\FileUpload.cs",
+              "RelativeDocumentMoniker": "Services\\FileUpload.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Services\\FileUpload.cs",
+              "RelativeToolTip": "Services\\FileUpload.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:38:35.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T09:42:12.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataModelToModel.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\DataModelToModel.cs",
+              "RelativeDocumentMoniker": "AutoMapperProfile\\DataModelToModel.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\DataModelToModel.cs",
+              "RelativeToolTip": "AutoMapperProfile\\DataModelToModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T05:52:34.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AuctionStatus.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\AuctionStatus.cs",
               "RelativeDocumentMoniker": "Enums\\AuctionStatus.cs",
@@ -156,47 +256,151 @@
               "RelativeToolTip": "Enums\\AuctionStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:55:58.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserDatalModel.cs",
-              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\UserDatalModel.cs",
-              "RelativeDocumentMoniker": "DataModel\\UserDatalModel.cs",
-              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\UserDatalModel.cs",
-              "RelativeToolTip": "DataModel\\UserDatalModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T17:29:07.448Z"
+              "WhenOpened": "2024-10-09T06:03:25.908Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AuctionRepository.cs",
-              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DAL\\AuctionRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\AuctionRepository.cs",
-              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DAL\\AuctionRepository.cs",
-              "RelativeToolTip": "DAL\\AuctionRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\PaymentStatus.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\PaymentStatus.cs",
+              "RelativeToolTip": "Enums\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T17:28:51.298Z"
+              "WhenOpened": "2024-10-09T06:01:14.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\PaymentType.cs",
+              "RelativeDocumentMoniker": "Enums\\PaymentType.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Enums\\PaymentType.cs",
+              "RelativeToolTip": "Enums\\PaymentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:01:13.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:36:10.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T17:28:47.793Z"
+              "WhenOpened": "2024-10-09T09:36:17.629Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ModelToDataModel.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\ModelToDataModel.cs",
+              "RelativeDocumentMoniker": "AutoMapperProfile\\ModelToDataModel.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\AutoMapperProfile\\ModelToDataModel.cs",
+              "RelativeToolTip": "AutoMapperProfile\\ModelToDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T05:52:41.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuctionEditDataModel.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\AuctionEditDataModel.cs",
+              "RelativeDocumentMoniker": "DataModel\\AuctionEditDataModel.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\AuctionEditDataModel.cs",
+              "RelativeToolTip": "DataModel\\AuctionEditDataModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T05:54:32.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuctionDataModel.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\AuctionDataModel.cs",
+              "RelativeDocumentMoniker": "DataModel\\AuctionDataModel.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\AuctionDataModel.cs",
+              "RelativeToolTip": "DataModel\\AuctionDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T05:54:28.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChangePasswordModel.cs",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\ChangePasswordModel.cs",
+              "RelativeDocumentMoniker": "DataModel\\ChangePasswordModel.cs",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\DataModel\\ChangePasswordModel.cs",
+              "RelativeToolTip": "DataModel\\ChangePasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T05:54:51.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManageStaff.cshtml",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Views\\Admin\\ManageStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageStaff.cshtml",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Views\\Admin\\ManageStaff.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T05:45:47.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageMember.cshtml",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Views\\Admin\\ManageMember.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageMember.cshtml",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Views\\Admin\\ManageMember.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageMember.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T05:45:39.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T05:45:35.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RealEstateAuction.csproj",
+              "DocumentMoniker": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\RealEstateAuction.csproj",
+              "RelativeDocumentMoniker": "RealEstateAuction.csproj",
+              "ToolTip": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\RealEstateAuction.csproj",
+              "RelativeToolTip": "RealEstateAuction.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T05:35:24.763Z"
             }
           ]
         }

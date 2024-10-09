@@ -7,7 +7,7 @@
     @if (User.Identity.IsAuthenticated)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-        user = new UserRepository().GetUserById(int.Parse(userId));
+        user = new UserDAO().GetUserById(int.Parse(userId));
     }
 
     var homePage = "";
@@ -77,24 +77,6 @@
                     }
                     else
                     {
-                        @* @if (User.FindFirstValue(ClaimTypes.Role) != "Admin")
-                        {
-                            <span class="fw-bold ">
-                                Số dư:&nbsp;
-                                <span class="text-danger">
-                                    @{
-                                        string formattedWalletValue = user.Wallet.ToString("N1").TrimEnd('0').TrimEnd(',') + "đ";
-                                    }
-                                    @formattedWalletValue
-                                </span>
-                            </span>
-                        }
-                        @if (User.FindFirstValue(ClaimTypes.Role) == "Member")
-                        {
-                            <a class="btn btn-outline-secondary text-nowrap" href="/top-up">
-                                Nạp tiền
-                            </a>
-                        } *@
                         <!-- If login, show this -->
                         <div class="dropdown">
                             <a href="#" class="d-flex align-items-center link-dark text-decoration-none cursor-pointer dropdown-toggle"
@@ -120,63 +102,14 @@
     <main>
         <div class="d-flex" style="margin-bottom: 100px">
             <div class="d-flex flex-column flex-shrink-0 p-3 sidebar" style="width: 280px;">
+                <a href="/home" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <span class="fs-4 fw-bold">F4 Land</span>
+                </a>
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto">
-                   @*  @if (User.FindFirstValue(ClaimTypes.Role) == "Member")
-                    {
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/manage-auction" class="nav-link link-dark" aria-current="page">
-                                Quản lý đấu giá
-                            </a>
-                        </li>
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/auction-histories" class="nav-link link-dark" aria-current="page">
-                                Lịch sử phiên đấu giá
-                            </a>
-                        </li>
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/top-up" class="nav-link link-dark" aria-current="page">
-                                Quản lý thanh toán
-                            </a>
-                        </li>
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/member/list-ticket" class="nav-link link-dark" aria-current="page">
-                                Quản lý yêu cầu hỗ trợ
-                            </a>
-                        </li>
-                    }
-                    @if (User.FindFirstValue(ClaimTypes.Role) == "Staff")
-                    {
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/list-auction-staff" class="nav-link link-dark" aria-current="page">
-                                Phê duyệt đấu giá
-                            </a>
-                        </li>
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/list-payment" class="nav-link link-dark" aria-current="page">
-                                Phê duyệt thanh toán
-                            </a>
-                        </li>
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/list-ticket" class="nav-link link-dark" aria-current="page">
-                                Phê duyệt yêu cầu hỗ trợ
-                            </a>
-                        </li>
-                    }
                     @if (User.FindFirstValue(ClaimTypes.Role) == "Admin")
                     {
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/manage-auction-admin" class="nav-link link-dark" aria-current="page">
-                                Quản lý phiên đấu giá
-                            </a>
-                        </li>
-
-                        <li class="nav-item item-user-sidebar">
-                            <a href="/manage-ticket" class="nav-link link-dark" aria-current="page">
-                                Quản lý yêu cầu hỗ trợ
-                            </a>
-                        </li>
-
+                        
                         <li class="nav-item item-user-sidebar">
                             <a href="/manage-staff" class="nav-link link-dark" aria-current="page">
                                 Quản lý nhân viên
@@ -189,7 +122,7 @@
                             </a>
                         </li>
                     }
- *@
+
                     <li class="nav-item item-user-sidebar">
                         <a href="/profile" class="nav-link link-dark" aria-current="page">
                             Thông tin cá nhân

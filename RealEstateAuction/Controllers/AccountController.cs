@@ -12,12 +12,12 @@ namespace RealEstateAuction.Controllers
     [Authorize]
     public class AccountController : Controller
     {
-        private readonly UserRepository userDAO;
+        private readonly UserDAO userDAO;
         private IMapper _mapper;
 
         public AccountController(IMapper mapper)
         {
-            userDAO = new UserRepository();
+            userDAO = new UserDAO();
             _mapper = mapper;
         }
 

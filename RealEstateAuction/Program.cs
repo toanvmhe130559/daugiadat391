@@ -18,14 +18,13 @@ internal class Program
         builder.Services.AddAutoMapper(typeof(DataModelToModel).Assembly, typeof(ModelToDataModel).Assembly);
 
         builder.Services.AddTransient<IEmailSender, EmailSender>();
-
+        
         //refresh page after 1 second
         builder.Services.AddSignalR();
 
 
         //Take notification view 
         builder.Services.AddSingleton<IUrlHelperFactory, UrlHelperFactory>();
-
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();

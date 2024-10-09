@@ -6,38 +6,23 @@
 @{
     var user = new User();
     @if (User.Identity.IsAuthenticated)
-
     {
-
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-        user = new UserRepository().GetUserById(int.Parse(userId));
-
+        user = new UserDAO().GetUserById(int.Parse(userId));
     }
 
     var homePage = "";
     @if (User.IsInRole("Admin"))
-
     {
-
         homePage = "/admin";
-
     }
-
     else if (User.IsInRole("Staff"))
-
     {
-
         homePage = "/staff";
-
     }
-
     else
-
     {
-
         homePage = "/home";
-
     }
 }
 <!DOCTYPE html>
@@ -65,7 +50,7 @@
             </a>
 
             <div class="col-12 col-md-5 mb-2 justify-content-center mb-md-0 gap-md-5">
-                <form action="" method="" class="input-group">
+                <form action="/list-auction" method="get" class="input-group">
                     <div class="input-group">
                         <span class="input-group-text" id="basic-addon1">
                             <i class="fa-solid fa-magnifying-glass primary-color"></i>
@@ -80,7 +65,6 @@
                 <div class="d-flex align-items-center gap-3">
                     <!-- If DO NOT login, show this   -->
                     @if (!User.Identity.IsAuthenticated)
-
                     {
                         <button type="button" class="btn btn-outline-none text-nowrap" data-bs-toggle="modal"
                                 data-bs-target="#loginModal">
@@ -92,25 +76,8 @@
                             Đăng ký
                         </button>
                     }
-
                     else
-
                     {
-                        @* @if (User.FindFirstValue(ClaimTypes.Role) == "Member")
-                    {
-                    <span class="fw-bold ">
-                    Số dư:&nbsp;
-                    <span class="text-danger">
-                    @{
-                    string formattedWalletValue = user.Wallet.ToString("N1").TrimEnd('0').TrimEnd(',') + "đ";
-                    }
-                    @formattedWalletValue
-                    </span>
-                    </span>
-                    <a class="btn btn-outline-secondary text-nowrap" href="/top-up">
-                    Nạp tiền
-                    </a>
-                    } *@
                         <!-- If login, show this -->
                         <div class="dropdown">
                             <a href="#" class="d-flex align-items-center link-dark text-decoration-none cursor-pointer dropdown-toggle"
@@ -149,7 +116,6 @@
     </div>
     <div id="body">
         @if (!User.Identity.IsAuthenticated)
-
         {
             @await Html.PartialAsync("Modals/ForgotPassword")
             @await Html.PartialAsync("Modals/SignIn")
