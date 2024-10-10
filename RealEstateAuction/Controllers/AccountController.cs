@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RealEstateAuction.DAL;
 using RealEstateAuction.DataModel;
+using RealEstateAuction.Enums;
 using RealEstateAuction.Models;
+using RealEstateAuction.Services;
 using System.Security.Claims;
 
 
@@ -97,6 +99,46 @@ namespace RealEstateAuction.Controllers
                     return View();
                 }
             }
+        }
+        [HttpPost("/create-ticket")]
+        [Authorize(Roles = "Member")]
+        public IActionResult CreateTicket([FromForm] TicketDataModel ticketData)
+        {
+            if (ModelState.IsValid)
+            {
+                Ticket ticket = new Ticket()
+                {
+                    UserId = Int32.Parse(User.FindFirstValue("Id")),
+                    Title = ticketData.Title,
+                    Description = ticketData.Description,
+                    Status = (byte)TicketStatus.Opening,
+                };
+                if (ticketData.ImageFiles != null)
+                {
+                    List<TicketImage> images = new List<TicketImage>();
+                    foreach (var file in ticketData.ImageFiles)
+                    {
+                        var pathImage = FileUpload.UploadImageProduct(file);
+                        if (pathImage != null)
+                        {
+                            TicketImage image = new TicketImage();
+                            image.Url = pathImage;
+                            images.Add(image);
+                        }
+                    }
+                    ticket.TicketImages = images;
+
+                }
+
+                ticketDAO.createTicket(ticket);
+                TempData["Message"] = "Tạo yêu cầu thành công";
+            }
+            else
+            {
+                TempData["Message"] = "Tạo yêu cầu thất bại";
+            }
+
+            return RedirectToAction("ListTicketUser");
         }
     }
 }
