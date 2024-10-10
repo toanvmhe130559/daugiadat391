@@ -19,10 +19,6 @@ namespace RealEstateAuction.Controllers
         {
             return View();
         }
-
-
-
-
         [Authorize(Roles = "Admin")]
         [HttpGet("manage-member")]
         public IActionResult ManageMember(int? page)
@@ -76,5 +72,33 @@ namespace RealEstateAuction.Controllers
             return RedirectToAction("ManageStaff");
         }
 
+        [Authorize(Roles = "Admin")]
+        [HttpPost("update-user")]
+        public IActionResult UpdateUser()
+        {
+            string curentUrl = HttpContext.Request.Headers["Referer"];
+
+            var staff = userDAO.GetUserById(Int32.Parse(Request.Form["id"]));
+            if (staff == null)
+            {
+                TempData["Message"] = "Thay đổi thất bại!";
+            }
+            else
+            {
+                staff.Status = Byte.Parse(Request.Form["status"]);
+                var result = userDAO.UpdateUser(staff);
+                Console.WriteLine(result);
+                if (result)
+                {
+                    TempData["Message"] = "Thay đổi thành công!";
+                }
+                else
+                {
+                    TempData["Message"] = "Thay đổi thất bại!";
+                }
+            }
+
+            return Redirect(curentUrl);
+        }
     }
 }
