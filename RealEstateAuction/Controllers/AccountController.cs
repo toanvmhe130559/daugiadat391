@@ -140,5 +140,20 @@ namespace RealEstateAuction.Controllers
 
             return RedirectToAction("ListTicketUser");
         }
+
+        [Authorize(Roles = "Member")]
+        [HttpGet("member/list-ticket")]
+        public IActionResult ListTicketUser(int? page)
+        {
+            int PageNumber = (page ?? 1);
+            var list = ticketDAO.listTicketByUser(Int32.Parse(User.FindFirstValue("Id")), PageNumber);
+            if (list.PageCount != 0 && list.PageCount < PageNumber)
+            {
+                TempData["Message"] = "Sô trang không hợp lệ";
+                return Redirect("member/list-ticket");
+            }
+            ViewData["List"] = list;
+            return View();
+        }
     }
 }
