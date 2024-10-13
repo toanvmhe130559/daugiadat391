@@ -100,5 +100,43 @@ namespace RealEstateAuction.Controllers
 
             return Redirect(curentUrl);
         }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("manage-ticket")]
+        public IActionResult ManageTicket(int? page)
+        {
+            int PageNumber = page ?? 1;
+            ViewData["List"] = ticketDAO.listTicket(PageNumber);
+
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("manage-ticket/{id}")]
+        public IActionResult TicketDetailAdmin(int id)
+        {
+            ViewData["Ticket"] = ticketDAO.ticketDetail(id);
+            ViewData["Staffs"] = userDAO.GetStaff();
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("assign-ticket")]
+        public IActionResult AssignTicket([FromForm] AssignTicketDataModel assignTicketData)
+        {
+            if (ModelState.IsValid)
+            {
+                var ticket = ticketDAO.ticketDetail(int.Parse(assignTicketData.TicketId.ToString()));
+                ticket.StaffId = int.Parse(assignTicketData.StaffId.ToString());
+                ticketDAO.update(ticket);
+                TempData["Message"] = "Bàn giao yêu cầu thành công";
+            }
+            else
+            {
+                TempData["Message"] = "Bàn giao yêu cầu thất bại";
+            }
+            return RedirectToAction("ManageTicket");
+        }
     }
+
 }
