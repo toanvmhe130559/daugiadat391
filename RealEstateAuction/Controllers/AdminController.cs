@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RealEstateAuction.DAL;
+using RealEstateAuction.DataModel;
 using RealEstateAuction.Enums;
 using RealEstateAuction.Models;
 
@@ -136,6 +137,35 @@ namespace RealEstateAuction.Controllers
                 TempData["Message"] = "Bàn giao yêu cầu thất bại";
             }
             return RedirectToAction("ManageTicket");
+        }
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        [Route("list-auction-admin")]
+        public IActionResult ListAuction(int? pageNumber)
+        {
+            ViewData["categories"] = categoryDAO.GetCategories();
+            //check user login or not
+            if (!User.Identity.IsAuthenticated)
+            {
+                TempData["Message"] = "Vui lòng đăng nhập để quản lý đấu giá!";
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (pageNumber.HasValue)
+            {
+                pagination.PageNumber = pageNumber.Value;
+            }
+
+            //get auction by staff id
+            List<Auction> auctions = auctionDAO.GetAuctionAdmin(pagination);
+
+            int auctionCount = auctionDAO.CountAuctionAdmin();
+            int pageSize = (int)Math.Ceiling((double)auctionCount / pagination.RecordPerPage);
+
+            ViewBag.currentPage = pagination.PageNumber;
+            ViewBag.pageSize = pageSize;
+
+            return View(auctions);
         }
     }
 
