@@ -219,5 +219,108 @@ namespace RealEstateAuction.Controllers
 
             return Redirect("/auction-details?auctionId=" + auctionId);
         }
+        [HttpPost("bidding-auction")]
+        [Authorize(Roles = "Member")]
+        public IActionResult Bidding(BiddingDataModel biddingDataModel)
+        {
+            //Get current url
+            string url = Request.Headers["Referer"];
+
+            //get user by id
+            User user = userDAO.GetUserById(biddingDataModel.MemberId);
+
+            //Get Auction by id
+            Auction? auction = auctionDAO.GetAuctionById(biddingDataModel.AuctionId);
+
+
+            //Check if auction is exist
+            if (auction == null)
+            {
+                TempData["Message"] = "Phiên đấu giá không tồn tại!";
+                return Redirect(url);
+            }
+
+            //Check if auction is started
+            if (auction.StartTime > DateTime.Now)
+            {
+                TempData["Message"] = "Phiên đấu giá chưa bắt đầu!";
+                return Redirect(url);
+            }
+
+            //Check if auction is expired
+            if (auction.EndTime.CompareTo(DateTime.Now) < 0 || auction.Status == (int)AuctionStatus.Kết_thúc)
+            {
+                TempData["Message"] = "Phiên đấu giá đã kết thúc!";
+                return Redirect(url);
+            }
+
+            //Check user has joined auction
+            bool isJoined = auctionDAO.IsUserJoinedAuction(user, biddingDataModel.AuctionId);
+            if (!isJoined)
+            {
+                TempData["Message"] = "Bạn chưa tham gia đấu giá!";
+                return Redirect(url);
+            }
+
+            //Check if bidding price is greater than start price
+            if (biddingDataModel.BiddingPrice < auction.StartPrice)
+            {
+                TempData["Message"] = "Giá đấu phải lớn hơn giá khởi điểm!";
+                return Redirect(url);
+            }
+
+            //check if bidding price is greater than end price
+            if (biddingDataModel.BiddingPrice > auction.EndPrice)
+            {
+                TempData["Message"] = "Giá đấu phải nhỏ hơn giá kết thúc!";
+                return Redirect(url);
+            }
+
+            //Get list bidding of auction
+            List<AuctionBidding> auctionBiddings = auctionBiddingDAO.GetAuctionBiddings(biddingDataModel.AuctionId);
+
+            //Check bidding price of participant is greater than the max price
+            if (auctionBiddings.Count > 0)
+            {
+                decimal maxPrice = auctionBiddings.Max(ab => ab.BiddingPrice);
+                if (biddingDataModel.BiddingPrice <= maxPrice)
+                {
+                    TempData["Message"] = "Giá đấu phải lớn hơn giá đấu cao nhất hiện tại!";
+                    return Redirect(url);
+                }
+            }
+
+            //Get the last bidding of user for this auction
+            AuctionBidding? lastBidding = auctionBiddingDAO.GetLastBiddingByUser(biddingDataModel.AuctionId, biddingDataModel.MemberId);
+
+            //If bidding price is equal to end price
+            if (biddingDataModel.BiddingPrice == auction.EndPrice)
+            {
+                //Update status of auction to end
+                auction.Status = (int)AuctionStatus.Kết_thúc;
+
+                //Update Auction to database
+                auctionDAO.EditAuction(auction);
+            }
+            //If bidding price is valid add to database
+            //Map to AuctionBidding model
+            AuctionBidding auctionBidding = _mapper.Map<BiddingDataModel, AuctionBidding>(biddingDataModel);
+            auctionBidding.TimeBidding = DateTime.Now;
+
+            bool isSuccess = auctionBiddingDAO.AddAuctionBidding(auctionBidding);
+            Auction auctionEnd = auctionDAO.GetAuctionEndById(biddingDataModel.AuctionId);
+
+            //Check user bidding successfull
+            if (isSuccess)
+            {
+                TempData["Message"] = "Đấu giá thành công!";
+            }
+            else
+            {
+                TempData["Message"] = "Có lỗi xảy ra khi đặt giá!";
+            }
+
+            return Redirect(url);
+        }
     }
 }
