@@ -11,10 +11,20 @@ namespace RealEstateAuction.Controllers
     public class AdminController : Controller
     {
         private readonly UserDAO userDAO;
+        private readonly BankDAO bankDAO;
+        private readonly TicketDAO ticketDAO;
+        private readonly AuctionDAO auctionDAO;
+        private readonly CategoryDAO categoryDAO;
+        private Pagination pagination;
 
         public AdminController(IMapper mapper)
         {
             userDAO = new UserDAO();
+            bankDAO = new BankDAO();
+            ticketDAO = new TicketDAO();
+            auctionDAO = new AuctionDAO();
+            pagination = new Pagination();
+            categoryDAO = new CategoryDAO();
         }
         public IActionResult Index()
         {
