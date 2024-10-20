@@ -1,0 +1,134 @@
+﻿@using RealEstateAuction.Enums
+@model IEnumerable<RealEstateAuction.Models.Auction>
+@{
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+    ViewData["Title"] = "Quản lý đấu giá";
+}
+<h2>Quản lý đấu giá</h2>
+<hr>
+<!-- display list auction -->
+<table class="table mb-3">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Tiêu đề</th>
+            <th>Giá khởi điểm</th>
+            <th>Giá kết thúc</th>
+            <th>Thời gian bắt đầu</th>
+            <th>Thời gian kết thúc</th>
+            <th>Địa chỉ</th>
+            <th>Trạng thái</th>
+            <th>Chi tiết</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() == 0)
+        {
+            <div class="d-flex justify-content-center">
+                <p class="text-danger">Không có phiên đấu giá nào</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <!--Get the first image of auciton-->
+                        <img src="@Url.Content(item.Images.ToList()[0].Url)" height="100" width="100">
+                    </td>
+                    <td>
+                        @if (item.Title.Length > 20)
+                        {
+                            item.Title = item.Title.Substring(0, 20) + "...";
+                        }
+
+                        @item.Title
+                    </td>
+                    <td>@item.StartPrice.ToString("N1").TrimEnd('0').TrimEnd(',')đ</td>
+                    <td>@item.EndPrice.ToString("N1").TrimEnd('0').TrimEnd(',')đ</td>
+                    <td>@item.StartTime</td>
+                    <td>@item.EndTime</td>
+                    <td>
+                        @if (item.Address.Length > 15)
+                        {
+                            item.Address = item.Address.Substring(0, 10) + "...";
+                        }
+
+                        @item.Address
+                    </td>
+                    <td>
+                        @{
+                            string statusName = Enum.GetName(typeof(AuctionStatus), item.Status);
+                            statusName = statusName.Replace("_", " ");
+                        }
+                        @statusName
+                    </td>
+                    <td>
+                        <a href="/details-auction?auctionId=@item.Id" class="btn btn-info">Xem</a>
+                        @if (item.Status == 1)
+                        {
+                            <a class="btn btn-success btnStatus" data-bs-toggle="modal" data-bs-target="#modalApproveAuction" data-id="@item.Id"
+                               data-status="@((int)AuctionStatus.Chấp_nhân)">Chấp nhận</a>
+                            <a class="btn btn-danger btnStatus" data-bs-toggle="modal" data-bs-target="#modalRejectAuction" data-id="@item.Id"
+                               data-status="@((int)AuctionStatus.Từ_chối)">Từ chối</a>
+                        }
+                        @if (item.Status == 4 && item.AuctionBiddings.Count > 0)
+                        {
+                            <a class="btn btn-success btnStatus" href="/confirm-auction?auctionId=@item.Id&status=5">Thành công</a>
+                            <a class="btn btn-danger btnStatus" href="/confirm-auction?auctionId=@item.Id&status=6">Thất bại</a>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+@await Html.PartialAsync("Modals/Auction/RejectConfirm")
+@await Html.PartialAsync("Modals/Auction/ApproveConfirm")
+<!-- this is pagination of auctions -->
+<div class="d-flex justify-content-center align-items-center mt-4">
+    <!-- PAGINATION-->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center justify-content-lg-end">
+            @if (ViewBag.currentPage != 1)
+            {
+                <li class="page-item mx-1"><a class="page-link" href='/list-auction-admin?pageNumber=@(ViewBag.currentPage-1)' aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+            }
+            @for (var i = 1; i <= ViewBag.pageSize; i++)
+            {
+                @if (i == ViewBag.currentPage)
+                {
+                    <li class="page-item mx-1 active"><a class="page-link" href="#">@i</a></li>
+                }
+                else
+                {
+                    <li class="page-item mx-1"><a class="page-link" href='/list-auction-admin?pageNumber=@i'>@i</a></li>
+                }
+            }
+            @if (ViewBag.currentPage < ViewBag.pageSize)
+            {
+                <li class="page-item ms-1"><a class="page-link" href='/list-auction-admin?pageNumber=@(ViewBag.currentPage+1)' aria-label="Next"><span aria-hidden="true">»</span></a></li>
+            }
+        </ul>
+    </nav>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".btnStatus").click(function () {
+                $("#idUpdate").val($(this).data("id"))
+                $("#statusUpdate").val($(this).data("status"))
+                console.log($(this).data("id"))
+            })
+
+            $(".btnStatus").click(function () {
+                $("#id").val($(this).data("id"))
+                $("#status").val($(this).data("status"))
+                console.log($(this).data("id"))
+            })
+        })
+    </script>
+}
+

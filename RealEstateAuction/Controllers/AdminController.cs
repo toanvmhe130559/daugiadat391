@@ -11,10 +11,20 @@ namespace RealEstateAuction.Controllers
     public class AdminController : Controller
     {
         private readonly UserDAO userDAO;
+        private readonly BankDAO bankDAO;
+        private readonly TicketDAO ticketDAO;
+        private readonly AuctionDAO auctionDAO;
+        private readonly CategoryDAO categoryDAO;
+        private Pagination pagination;
 
         public AdminController(IMapper mapper)
         {
             userDAO = new UserDAO();
+            bankDAO = new BankDAO();
+            ticketDAO = new TicketDAO();
+            auctionDAO = new AuctionDAO();
+            pagination = new Pagination();
+            categoryDAO = new CategoryDAO();
         }
         public IActionResult Index()
         {
@@ -166,6 +176,29 @@ namespace RealEstateAuction.Controllers
             ViewBag.pageSize = pageSize;
 
             return View(auctions);
+        }
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        [Route("details-auction")]
+        public IActionResult DetailsAuction(int auctionId)
+        {
+            ViewData["categories"] = categoryDAO.GetCategories();
+            //check user login or not
+            if (!User.Identity.IsAuthenticated)
+            {
+                TempData["Message"] = "Vui lòng đăng nhập để quản lý đấu giá!";
+                return RedirectToAction("Index", "Home");
+            }
+
+            //get auction by Id
+            Auction auction = auctionDAO.GetAuctionStaffById(auctionId);
+
+            var winner = auctionDAO.GetWinner(auction);
+            if (winner != null)
+            {
+                ViewData["Winner"] = winner;
+            }
+            return View(auction);
         }
     }
 
