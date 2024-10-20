@@ -322,5 +322,16 @@ namespace RealEstateAuction.Controllers
 
             return Redirect(url);
         }
+        [HttpGet("/top-up")]
+        [Authorize(Roles = "Member")]
+        public IActionResult TopUp(int? page)
+        {
+            int PageNumber = (page ?? 1);
+            ViewData["List"] = paymentDAO.listByUserId(Int32.Parse(User.FindFirstValue("Id")), PageNumber);
+
+            ViewData["Banks"] = bankDAO.listBankings();
+
+            return View();
+        }
     }
 }
