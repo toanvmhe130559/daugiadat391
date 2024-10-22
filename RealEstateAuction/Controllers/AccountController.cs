@@ -333,5 +333,167 @@ namespace RealEstateAuction.Controllers
 
             return View();
         }
+        [HttpPost("/top-up-post")]
+        [Authorize(Roles = "Member")]
+        public IActionResult TopUpPost([FromForm] PaymentDataModel paymentData)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    Payment payment;
+                    switch (paymentData.Action)
+                    {
+                        case PaymentType.TopUp:
+                            payment = new Payment()
+                            {
+                                BankId = paymentData.BankId,
+                                Amount = paymentData.Amount,
+                                UserBankName = paymentData.UserBankName,
+                                UserBankAccount = paymentData.UserAccountNumber,
+                                Code = $"NAP_{DateTime.Now.ToShortTimeString()}",
+                                TransactionDate = DateTime.Now,
+                                Status = (int)PaymentStatus.Pending,
+                                UserId = Int32.Parse(User.FindFirstValue("Id")),
+                                Type = (byte)paymentData.Action,
+                            };
+                            paymentDAO.insert(payment);
+                            payment.Bank = bankDAO.bankDetail(paymentData.BankId);
+
+                            break;
+                        case PaymentType.Withdraw:
+                            var user = userDAO.GetUserById(Int32.Parse(User.FindFirstValue("Id")));
+                            Console.Write(user.Id);
+                            if (user.Wallet < paymentData.Amount)
+                            {
+                                TempData["Message"] = "Không thể tạo yêu cầu do số tiền rút cao hơn số tiền trong ví";
+
+                                return RedirectToAction("TopUp");
+                            }
+                            payment = new Payment()
+                            {
+                                Amount = paymentData.Amount,
+                                UserBankAccount = paymentData.UserAccountNumber,
+                                UserBankName = paymentData.UserBankName,
+                                Code = $"RUT_{DateTime.Now.ToShortTimeString()}",
+                                TransactionDate = DateTime.Now,
+                                Status = (int)PaymentStatus.Pending,
+                                UserId = Int32.Parse(User.FindFirstValue("Id")),
+                                Type = (byte)paymentData.Action,
+                            };
+                            paymentDAO.insert(payment);
+
+                            break;
+                        case PaymentType.Refund:
+                            int paymentId = Int32.Parse(Request.Form["PaymentId"]);
+                            var paymentRefund = paymentDAO.getPaymentRefund(paymentId);
+                            var newPayment = new Payment()
+                            {
+                                Amount = paymentRefund.Amount,
+                                UserBankAccount = paymentRefund.UserBankAccount,
+                                UserBankName = paymentRefund.UserBankName,
+                                Code = $"HOAN_{DateTime.Now.ToShortTimeString()}",
+                                TransactionDate = DateTime.Now,
+                                Status = (int)PaymentStatus.Pending,
+                                UserId = Int32.Parse(User.FindFirstValue("Id")),
+                                Type = (byte)paymentData.Action,
+                            };
+                            paymentDAO.insert(newPayment);
+                            break;
+                    }
+                    TempData["Message"] = "Tạo yêu cầu thành công";
+                }
+                else
+                {
+                    Console.WriteLine(1);
+                    foreach (var modelStateEntry in ModelState.Values)
+                    {
+                        foreach (var error in modelStateEntry.Errors)
+                        {
+                            Console.WriteLine(error.ErrorMessage);
+                        }
+                    }
+                    TempData["Message"] = "Tạo yêu cầu thất bại";
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(2);
+                Console.WriteLine(ex.Message);
+
+                TempData["Message"] = "Tạo yêu cầu thất bại";
+            }
+
+            return RedirectToAction("TopUp");
+        }
+
+        [Authorize(Roles = "Member")]
+        [HttpGet("member/list-ticket")]
+        public IActionResult ListTicketUser(int? page)
+        {
+            int PageNumber = (page ?? 1);
+            var list = ticketDAO.listTicketByUser(Int32.Parse(User.FindFirstValue("Id")), PageNumber);
+            if (list.PageCount != 0 && list.PageCount < PageNumber)
+            {
+                TempData["Message"] = "Sô trang không hợp lệ";
+                return Redirect("member/list-ticket");
+            }
+            ViewData["List"] = list;
+            return View();
+        }
+
+        [Authorize(Roles = "Member")]
+        [HttpGet("/member/list-ticket/{id}")]
+        public IActionResult TicketDetailUser(int id)
+        {
+            var ticket = ticketDAO.ticketDetail(id);
+            if (ticket == null || ticket.UserId != Int32.Parse(User.FindFirstValue("Id")))
+            {
+                TempData["Message"] = "Yêu cầu hỗ trợ không tồn tại";
+                return RedirectToAction("ListTicket");
+            }
+            ViewData["Ticket"] = ticket;
+            ViewData["IdUser"] = User.FindFirstValue("Id");
+            return View();
+        }
+
+        [Authorize(Roles = "Member")]
+        [HttpPost]
+        [Route("member/reply")]
+        public IActionResult ReplyUser([FromForm] TicketCommentDataModel commentData)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    TempData["Message"] = "Vui lòng kiểm tra lại thông tin";
+                    return RedirectToAction("TicketDetail", "Account", new { Id = commentData.TicketId });
+                }
+                var ticket = ticketDAO.ticketDetail(commentData.TicketId);
+                var idUser = Int32.Parse(User.FindFirstValue("Id"));
+                if (ticket == null || ticket.UserId != idUser)
+                {
+                    TempData["Message"] = "Yêu cầu hỗ trợ không tồn tại";
+                    return RedirectToAction("listTicket");
+                }
+                else
+                {
+                    TicketComment commentInsert = new TicketComment
+                    {
+                        UserId = idUser,
+                        Comment = commentData.Comment,
+                        TicketId = commentData.TicketId,
+                    };
+                    ticketDAO.insertComment(commentInsert);
+                    TempData["Message"] = "Trả lời thành công";
+                }
+                return RedirectToAction("TicketDetailUser", "Account", new { Id = commentData.TicketId });
+            }
+            catch (Exception ex)
+            {
+                TempData["Message"] = "Lỗi hệ thống, xin vui lòng thử lại";
+                return RedirectToAction("ListTicket");
+            }
+        }
     }
 }
