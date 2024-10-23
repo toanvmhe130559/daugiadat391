@@ -200,6 +200,38 @@ namespace RealEstateAuction.Controllers
             }
             return View(auction);
         }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        [Route("approve-auction")]
+        public IActionResult ListAuction(int auctionId, int status)
+        {
+            ViewData["categories"] = categoryDAO.GetCategories();
+            //check user login or not
+            if (!User.Identity.IsAuthenticated)
+            {
+                TempData["Message"] = "Vui lòng đăng nhập để quản lý đấu giá!";
+                return RedirectToAction("Index", "Home");
+            }
+
+            //get auction by Id
+            Auction auction = auctionDAO.GetAuctionStaffById(auctionId);
+
+            auction.Status = byte.Parse(status.ToString());
+
+            bool flag = auctionDAO.EditAuction(auction);
+            if (flag)
+            {
+                TempData["Message"] = "Phê duyệt thành công!";
+            }
+            else
+            {
+                TempData["Message"] = "Phê duyệt thất bại";
+            }
+
+            return Redirect("list-auction-admin");
+        }
+
     }
 
 }
