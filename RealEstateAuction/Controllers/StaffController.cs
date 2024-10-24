@@ -33,7 +33,30 @@ namespace RealEstateAuction.Controllers
             _mapper = mapper;
             auctionBiddingDAO = new AuctionBiddingDAO();
         }
+        [HttpGet]
+        [Route("manage-auction")]
+        [Authorize(Roles = "Staff")]
+        public IActionResult ManageAuction(int? pageNumber)
+        {
+            //get current user id
+            int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
 
+            if (pageNumber.HasValue)
+            {
+                pagination.PageNumber = pageNumber.Value;
+            }
+
+            //get auction by user id
+            List<Auction> auctions = auctionDAO.GetAuctionByUserId(userId, pagination);
+
+            int auctionCount = auctionDAO.CountAuctionByUserId(userId);
+            int pageSize = (int)Math.Ceiling((double)auctionCount / pagination.RecordPerPage);
+
+            ViewBag.currentPage = pagination.PageNumber;
+            ViewBag.pageSize = pageSize;
+
+            return View(auctions);
+        }
         [Authorize(Roles = "Staff")]
         [HttpGet]
         public IActionResult Index()
@@ -135,6 +158,7 @@ namespace RealEstateAuction.Controllers
             ViewData["IdStaff"] = User.FindFirstValue("Id");
             return View();
         }
+
 
         [Authorize(Roles = "Staff")]
         [HttpPost]
