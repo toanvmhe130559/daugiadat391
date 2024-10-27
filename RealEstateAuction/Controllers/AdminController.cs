@@ -5,6 +5,7 @@ using RealEstateAuction.DAL;
 using RealEstateAuction.DataModel;
 using RealEstateAuction.Enums;
 using RealEstateAuction.Models;
+using System.Security.Claims;
 
 namespace RealEstateAuction.Controllers
 {
@@ -30,14 +31,53 @@ namespace RealEstateAuction.Controllers
         {
             return View();
         }
+
         [Authorize(Roles = "Admin")]
-        [HttpGet("manage-member")]
-        public IActionResult ManageMember(int? page)
+        [HttpGet("manage-ticket")]
+        public IActionResult ManageTicket(int? page)
+        {
+            int PageNumber = page ?? 1;
+            ViewData["List"] = ticketDAO.listTicket(PageNumber);
+
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("manage-ticket/{id}")]
+        public IActionResult TicketDetailAdmin(int id)
+        {
+            ViewData["Ticket"] = ticketDAO.ticketDetail(id);
+            ViewData["Staffs"] = userDAO.GetStaff();
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("assign-ticket")]
+        public IActionResult AssignTicket([FromForm] AssignTicketDataModel assignTicketData)
+        {
+            if (ModelState.IsValid)
+            {
+                var ticket = ticketDAO.ticketDetail(int.Parse(assignTicketData.TicketId.ToString()));
+                ticket.StaffId = int.Parse(assignTicketData.StaffId.ToString());
+                ticketDAO.update(ticket);
+                TempData["Message"] = "Bàn giao yêu cầu thành công";
+            }
+            else
+            {
+                TempData["Message"] = "Bàn giao yêu cầu thất bại";
+            }
+            return RedirectToAction("ManageTicket");
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("manage-staff")]
+        public IActionResult ManageStaff(int? page)
         {
             int PageNumber = page ?? 1;
 
-            return View(userDAO.GetMember(PageNumber));
+            return View(userDAO.GetStaff(PageNumber));
         }
+
         [Authorize(Roles = "Admin")]
         [HttpPost("create-staff")]
         public IActionResult CreateStaff()
@@ -113,41 +153,33 @@ namespace RealEstateAuction.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpGet("manage-ticket")]
-        public IActionResult ManageTicket(int? page)
+        [HttpGet("manage-member")]
+        public IActionResult ManageMember(int? page)
         {
             int PageNumber = page ?? 1;
-            ViewData["List"] = ticketDAO.listTicket(PageNumber);
 
-            return View();
+            return View(userDAO.GetMember(PageNumber));
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpGet("manage-ticket/{id}")]
-        public IActionResult TicketDetailAdmin(int id)
+        [HttpGet]
+        [Route("details-user")]
+        public IActionResult DetailsUser(int userId)
         {
-            ViewData["Ticket"] = ticketDAO.ticketDetail(id);
-            ViewData["Staffs"] = userDAO.GetStaff();
-            return View();
+            //check user login or not
+            if (!User.Identity.IsAuthenticated)
+            {
+                TempData["Message"] = "Vui lòng đăng nhập!";
+                return RedirectToAction("Index", "Home");
+            }
+
+            // Get user by Id
+            User user = userDAO.GetUserById(userId);
+
+            // Return view
+            return View(user);
         }
 
-        [Authorize(Roles = "Admin")]
-        [HttpPost("assign-ticket")]
-        public IActionResult AssignTicket([FromForm] AssignTicketDataModel assignTicketData)
-        {
-            if (ModelState.IsValid)
-            {
-                var ticket = ticketDAO.ticketDetail(int.Parse(assignTicketData.TicketId.ToString()));
-                ticket.StaffId = int.Parse(assignTicketData.StaffId.ToString());
-                ticketDAO.update(ticket);
-                TempData["Message"] = "Bàn giao yêu cầu thành công";
-            }
-            else
-            {
-                TempData["Message"] = "Bàn giao yêu cầu thất bại";
-            }
-            return RedirectToAction("ManageTicket");
-        }
         [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("list-auction-admin")]
@@ -177,6 +209,7 @@ namespace RealEstateAuction.Controllers
 
             return View(auctions);
         }
+
         [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("details-auction")]
@@ -200,6 +233,111 @@ namespace RealEstateAuction.Controllers
             }
             return View(auction);
         }
-    }
 
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        [Route("approve-auction")]
+        public IActionResult ListAuction(int auctionId, int status)
+        {
+            ViewData["categories"] = categoryDAO.GetCategories();
+            //check user login or not
+            if (!User.Identity.IsAuthenticated)
+            {
+                TempData["Message"] = "Vui lòng đăng nhập để quản lý đấu giá!";
+                return RedirectToAction("Index", "Home");
+            }
+
+            //get current user id
+            int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            //get auction by Id
+            Auction auction = auctionDAO.GetAuctionStaffById(auctionId);
+
+            auction.Status = byte.Parse(status.ToString());
+
+            //check if auction is rejected
+            if (status == (int)AuctionStatus.Từ_chối)
+            {
+                auction.Reason = Request.Query["reason"];
+            }
+            else
+            {
+                auction.Categories.Add(categoryDAO.GetCategoryById(Int32.Parse(Request.Query["categoryId"])));
+            }
+
+            bool flag = auctionDAO.EditAuction(auction);
+            if (flag)
+            {
+                TempData["Message"] = "Phê duyệt thành công!";
+            }
+            else
+            {
+                TempData["Message"] = "Phê duyệt thất bại";
+            }
+
+            return Redirect("list-auction-admin");
+        }
+
+        [Authorize(Roles = "Staff")]
+        [HttpGet("confirm-auction")]
+        public IActionResult ConfirmAuction(int auctionId, int status)
+        {
+
+            //get auction by Id
+            Auction auction = auctionDAO.GetAuctionById(auctionId);
+
+            if (auction.AuctionBiddings.Count > 0)
+            {
+                //get the price of winner
+                var price = auctionDAO.GetMaxPrice(auctionId);
+
+                var winnerId = auctionDAO.GetWinnerId(auction);
+
+                //get the winner
+                var winner = userDAO.GetUserById(winnerId);
+
+                //check status
+                if (status == 5)
+                {
+                    //update status of auction
+                    auction.Status = byte.Parse(status.ToString());
+
+                    //update auction
+                    bool flag = auctionDAO.EditAuction(auction);
+
+                    //check if update auction success
+                    if (flag)
+                    {
+                        TempData["Message"] = "Cập nhật thành công!";
+                    }
+                    else
+                    {
+                        TempData["Message"] = "Cập nhật thất bại";
+                    }
+                }
+                else
+                {
+                    //update status of auction
+                    auction.Status = byte.Parse(status.ToString());
+
+                    //update auction
+                    bool flag = auctionDAO.EditAuction(auction);
+                    if (flag)
+                    {
+                        TempData["Message"] = "Cập nhật thành công!";
+                    }
+                    else
+                    {
+                        TempData["Message"] = "Cập nhật thất bại";
+                    }
+                }
+            }
+            else
+            {
+                TempData["Message"] = "Phiên đấu giá không có người tham gia đặt giá";
+            }
+
+            return Redirect("list-auction-Admin");
+        }
+    }
 }

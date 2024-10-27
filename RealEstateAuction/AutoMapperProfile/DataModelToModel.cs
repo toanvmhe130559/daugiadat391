@@ -11,7 +11,7 @@ namespace RealEstateAuction.AutoMapperProfile
             CreateMap<UserDatalModel, User>();
             CreateMap<AuctionDataModel, Auction>();
             CreateMap<AuctionEditDataModel, Auction>();
-
+            CreateMap<BiddingDataModel, AuctionBidding>();
         }
     }
 }

@@ -26,32 +26,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/CreateAuction.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVBdWN0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/EditAuction.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0QXVjdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/ListJoining.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMaXN0Sm9pbmluZy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/ListParticipant.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMaXN0UGFydGljaXBhbnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/ListTicketUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMaXN0VGlja2V0VXNlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/ManageAuction.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNYW5hZ2VBdWN0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/MyAuctionDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeUF1Y3Rpb25EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Account/Profile.cshtml]
@@ -74,8 +50,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXVjdGlvbkRldGFpbEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Admin/DetailsAuction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlsc0F1Y3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Admin/ListAuction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdEF1Y3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Admin/ManageAuctionAdmin.cshtml]
@@ -130,16 +114,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Shared/Components/Notification/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTm90aWZpY2F0aW9uXERlZmF1bHQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Shared/EnterOtpLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVudGVyT3RwTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Shared/Layout02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dDAyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Shared/Modals/Account/CreateTicket.cshtml]
@@ -206,16 +190,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/DetailsAuction.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGV0YWlsc0F1Y3Rpb24uY3NodG1s
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/CreateAuction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcQ3JlYXRlQXVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/EditAuction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRWRpdEF1Y3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/ListAuction.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcTGlzdEF1Y3Rpb24uY3NodG1s
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/ListJoining.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcTGlzdEpvaW5pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/ListParticipant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcTGlzdFBhcnRpY2lwYW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/listPayment.cshtml]
@@ -224,6 +216,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/listTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcbGlzdFRpY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/ManageAuction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcTWFuYWdlQXVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/MyAuctionDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcTXlBdWN0aW9uRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Support/VuToan/Template/Real_Estate_Auction_System-main/RealEstateAuction/Views/Staff/TicketDetail.cshtml]

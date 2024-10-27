@@ -222,6 +222,10 @@ namespace RealEstateAuction.Controllers
             return Redirect("home");
         }
 
-        
+        [Route("access-denied")]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }

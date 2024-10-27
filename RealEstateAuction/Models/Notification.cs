@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace RealEstateAuction.Models;
+﻿namespace RealEstateAuction.Models;
 
 public partial class Notification
 {

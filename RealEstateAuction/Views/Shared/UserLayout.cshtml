@@ -44,7 +44,7 @@
             <a href="@homePage"
                class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none cursor-pointer">
                 <!-- LOGO -->
-                <img src="https://image.invaluable.com/static/header/IN_Red32.svg" alt="Invaluable" />
+                <img src="~/img/logo.jpg" alt="Invaluable" />
             </a>
             @if (User.FindFirstValue(ClaimTypes.Role) == "Member")
             {
@@ -77,6 +77,24 @@
                     }
                     else
                     {
+                        @if (User.FindFirstValue(ClaimTypes.Role) != "Admin" && User.FindFirstValue(ClaimTypes.Role) != "Staff")
+                        {
+                            <span class="fw-bold ">
+                                Số dư:&nbsp;
+                                <span class="text-danger">
+                                    @{
+                                        string formattedWalletValue = user.Wallet.ToString("N1").TrimEnd('0').TrimEnd(',') + "đ";
+                                    }
+                                    @formattedWalletValue
+                                </span>
+                            </span>
+                        }
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "Member")
+                        {
+                            <a class="btn btn-outline-secondary text-nowrap" href="/top-up">
+                                Nạp tiền
+                            </a>
+                        }
                         <!-- If login, show this -->
                         <div class="dropdown">
                             <a href="#" class="d-flex align-items-center link-dark text-decoration-none cursor-pointer dropdown-toggle"
@@ -107,9 +125,55 @@
                 </a>
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto">
+                    @if (User.FindFirstValue(ClaimTypes.Role) == "Member")
+                    {
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/auction-histories" class="nav-link link-dark" aria-current="page">
+                                Lịch sử phiên đấu giá
+                            </a>
+                        </li>
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/top-up" class="nav-link link-dark" aria-current="page">
+                                Quản lý thanh toán
+                            </a>
+                        </li>
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/member/list-ticket" class="nav-link link-dark" aria-current="page">
+                                Quản lý yêu cầu hỗ trợ
+                            </a>
+                        </li>
+                    }
+                    @if (User.FindFirstValue(ClaimTypes.Role) == "Staff")
+                    {
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/manage-auction" class="nav-link link-dark" aria-current="page">
+                                Quản lý đấu giá
+                            </a>
+                        </li>
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/list-payment" class="nav-link link-dark" aria-current="page">
+                                Phê duyệt thanh toán
+                            </a>
+                        </li>
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/list-ticket" class="nav-link link-dark" aria-current="page">
+                                Phê duyệt yêu cầu hỗ trợ
+                            </a>
+                        </li>
+                    }
                     @if (User.FindFirstValue(ClaimTypes.Role) == "Admin")
                     {
-                        
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/list-auction-admin" class="nav-link link-dark" aria-current="page">
+                                Phê duyệt đấu giá
+                            </a>
+                        </li>
+                        <li class="nav-item item-user-sidebar">
+                            <a href="/manage-ticket" class="nav-link link-dark" aria-current="page">
+                                Quản lý yêu cầu hỗ trợ
+                            </a>
+                        </li>
+
                         <li class="nav-item item-user-sidebar">
                             <a href="/manage-staff" class="nav-link link-dark" aria-current="page">
                                 Quản lý nhân viên
@@ -244,7 +308,7 @@
                     <div class="col-12 col-md-7 col-lg-7">
                         <div class="">
                             <img class="_logo-img_a506i_11"
-                                 src="https://image.invaluable.com/static/header/IN_Red32.svg"
+                                 src="~/img/logo.jpg"
                                  alt="Invaluable Logo">
                             <p class="mt-4">
                                 Là thị trường đấu giá trực tuyến hàng đầu thế giới, hàng nghìn cuộc đấu giá

@@ -6,6 +6,7 @@ using RealEstateAuction.DataModel;
 using RealEstateAuction.Enums;
 using RealEstateAuction.Models;
 using RealEstateAuction.Services;
+using System.Reflection.Metadata;
 using System.Security.Claims;
 
 
@@ -15,12 +16,26 @@ namespace RealEstateAuction.Controllers
     public class AccountController : Controller
     {
         private readonly UserDAO userDAO;
+        private readonly AuctionDAO auctionDAO;
+        private readonly BankDAO bankDAO;
+        private readonly PaymentDAO paymentDAO;
+        private readonly TicketDAO ticketDAO;
+        private readonly AuctionBiddingDAO auctionBiddingDAO;
+        private readonly CategoryDAO categoryDAO;
         private IMapper _mapper;
+        private Pagination pagination;
 
         public AccountController(IMapper mapper)
         {
+            pagination = new Pagination();
+            auctionDAO = new AuctionDAO();
             userDAO = new UserDAO();
             _mapper = mapper;
+            bankDAO = new BankDAO();
+            paymentDAO = new PaymentDAO();
+            ticketDAO = new TicketDAO();
+            auctionBiddingDAO = new AuctionBiddingDAO();
+            categoryDAO = new CategoryDAO();
         }
 
         [HttpGet]
@@ -100,61 +115,7 @@ namespace RealEstateAuction.Controllers
                 }
             }
         }
-        [HttpPost("/create-ticket")]
-        [Authorize(Roles = "Member")]
-        public IActionResult CreateTicket([FromForm] TicketDataModel ticketData)
-        {
-            if (ModelState.IsValid)
-            {
-                Ticket ticket = new Ticket()
-                {
-                    UserId = Int32.Parse(User.FindFirstValue("Id")),
-                    Title = ticketData.Title,
-                    Description = ticketData.Description,
-                    Status = (byte)TicketStatus.Opening,
-                };
-                if (ticketData.ImageFiles != null)
-                {
-                    List<TicketImage> images = new List<TicketImage>();
-                    foreach (var file in ticketData.ImageFiles)
-                    {
-                        var pathImage = FileUpload.UploadImageProduct(file);
-                        if (pathImage != null)
-                        {
-                            TicketImage image = new TicketImage();
-                            image.Url = pathImage;
-                            images.Add(image);
-                        }
-                    }
-                    ticket.TicketImages = images;
 
-                }
-
-                ticketDAO.createTicket(ticket);
-                TempData["Message"] = "Tạo yêu cầu thành công";
-            }
-            else
-            {
-                TempData["Message"] = "Tạo yêu cầu thất bại";
-            }
-
-            return RedirectToAction("ListTicketUser");
-        }
-
-        [Authorize(Roles = "Member")]
-        [HttpGet("member/list-ticket")]
-        public IActionResult ListTicketUser(int? page)
-        {
-            int PageNumber = (page ?? 1);
-            var list = ticketDAO.listTicketByUser(Int32.Parse(User.FindFirstValue("Id")), PageNumber);
-            if (list.PageCount != 0 && list.PageCount < PageNumber)
-            {
-                TempData["Message"] = "Sô trang không hợp lệ";
-                return Redirect("member/list-ticket");
-            }
-            ViewData["List"] = list;
-            return View();
-        }
         [HttpGet("join-auction")]
         public IActionResult JoinAuction(int auctionId)
         {
@@ -204,6 +165,10 @@ namespace RealEstateAuction.Controllers
             //add new user to list user join auction
             auction.Users.Add(user);
 
+            // Update user wallet after join auction
+            user.Wallet -= DataModel.Constant.Fee;
+            userDAO.UpdateUser(user);
+
             //update Auction to database
             bool isSuccess = auctionDAO.EditAuction(auction);
 
@@ -219,6 +184,7 @@ namespace RealEstateAuction.Controllers
 
             return Redirect("/auction-details?auctionId=" + auctionId);
         }
+
         [HttpPost("bidding-auction")]
         [Authorize(Roles = "Member")]
         public IActionResult Bidding(BiddingDataModel biddingDataModel)
@@ -308,7 +274,6 @@ namespace RealEstateAuction.Controllers
             auctionBidding.TimeBidding = DateTime.Now;
 
             bool isSuccess = auctionBiddingDAO.AddAuctionBidding(auctionBidding);
-            Auction auctionEnd = auctionDAO.GetAuctionEndById(biddingDataModel.AuctionId);
 
             //Check user bidding successfull
             if (isSuccess)
@@ -322,6 +287,7 @@ namespace RealEstateAuction.Controllers
 
             return Redirect(url);
         }
+
         [HttpGet("/top-up")]
         [Authorize(Roles = "Member")]
         public IActionResult TopUp(int? page)
@@ -333,6 +299,7 @@ namespace RealEstateAuction.Controllers
 
             return View();
         }
+
         [HttpPost("/top-up-post")]
         [Authorize(Roles = "Member")]
         public IActionResult TopUpPost([FromForm] PaymentDataModel paymentData)
@@ -494,6 +461,86 @@ namespace RealEstateAuction.Controllers
                 TempData["Message"] = "Lỗi hệ thống, xin vui lòng thử lại";
                 return RedirectToAction("ListTicket");
             }
+        }
+
+        [HttpPost("/create-ticket")]
+        [Authorize(Roles = "Member")]
+        public IActionResult CreateTicket([FromForm] TicketDataModel ticketData)
+        {
+            if (ModelState.IsValid)
+            {
+                Ticket ticket = new Ticket()
+                {
+                    UserId = Int32.Parse(User.FindFirstValue("Id")),
+                    Title = ticketData.Title,
+                    Description = ticketData.Description,
+                    Status = (byte)TicketStatus.Opening,
+                };
+                if (ticketData.ImageFiles != null)
+                {
+                    List<TicketImage> images = new List<TicketImage>();
+                    foreach (var file in ticketData.ImageFiles)
+                    {
+                        var pathImage = FileUpload.UploadImageProduct(file);
+                        if (pathImage != null)
+                        {
+                            TicketImage image = new TicketImage();
+                            image.Url = pathImage;
+                            images.Add(image);
+                        }
+                    }
+                    ticket.TicketImages = images;
+
+                }
+
+                ticketDAO.createTicket(ticket);
+                TempData["Message"] = "Tạo yêu cầu thành công";
+            }
+            else
+            {
+                TempData["Message"] = "Tạo yêu cầu thất bại";
+            }
+
+            return RedirectToAction("ListTicketUser");
+        }
+
+        [HttpGet("auction-histories")]
+        [Authorize(Roles = "Member")]
+        public IActionResult AuctionHistory(int? pageNumber)
+        {
+            int page = pageNumber ?? 1;
+            var userId = Int32.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var listAuction = auctionDAO.GetAuctionHistoryByUser(userId, page);
+            List<AuctionBidding> winners = new List<AuctionBidding>();
+            foreach (var i in listAuction)
+            {
+                var winner = auctionDAO.GetMaxBiddingForAuction(i.Id);
+                if (winner != null)
+                {
+                    winners.Add(winner);
+                }
+            }
+
+            // Tạo danh sách kết hợp từ list và winners
+            var combinedList = new List<dynamic>();
+            foreach (var auction in listAuction)
+            {
+                var winner = new AuctionBidding();
+                if (winners.Count > 0)
+                {
+                    winner = winners.SingleOrDefault(w => w.AuctionId == auction.Id && w.MemberId == userId);
+                }
+                else
+                {
+                    winner = null;
+                }
+
+                combinedList.Add(new { Auction = auction, Winner = winner });
+            }
+
+            ViewData["AuctionList"] = listAuction;
+
+            return View(combinedList);
         }
     }
 }

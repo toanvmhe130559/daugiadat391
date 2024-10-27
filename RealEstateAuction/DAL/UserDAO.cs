@@ -1,4 +1,5 @@
 ﻿using Microsoft.DotNet.Scaffolding.Shared.Messaging;
+using Microsoft.EntityFrameworkCore;
 using RealEstateAuction.Enums;
 using RealEstateAuction.Models;
 using X.PagedList;
@@ -18,7 +19,7 @@ namespace RealEstateAuction.DAL
         }
         public User GetUserById(int id)
         {
-            return context.Users.SingleOrDefault(u => u.Id.Equals(id));
+            return context.Users.Include(u => u.Role).SingleOrDefault(u => u.Id.Equals(id));
         }
         public User GetUserByEmailAndPassword(string email, string password)
         {
@@ -79,12 +80,62 @@ namespace RealEstateAuction.DAL
             }
         }
 
-     
+        //Get random staff
+        public User GetRandomStaff()
+        {
+            try
+            {
+                //Get user with roleId is staff ( staff = 2 )
+                List<User> staffs = context.Users.Where(x => x.RoleId == (int) Roles.Staff).ToList();
+                
+                Random rand = new Random();
+                // Generate a random index within the bounds of the list
+                int randomIndex = rand.Next(0, staffs.Count);
+
+                //get random staff
+                User staff = staffs[randomIndex];
+
+                return staff;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public List<User> GetStaff()
+        {
+            return context.Users.Where(x => x.RoleId == (int)Roles.Staff).ToList();
+        }
+
+        public IPagedList<User> GetStaff(int page)
+        {
+            return context.Users.Where(x => x.RoleId == (int)Roles.Staff).ToPagedList(page, 10);
+        }
+
+        public User GetStaffDetail(int id)
+        {
+            return context.Users.Where(x => x.Id == id).SingleOrDefault();
+        }
 
         public IPagedList<User> GetMember(int page)
         {
             return context.Users.Where(x => x.RoleId == (int)Roles.Member).ToPagedList(page, 10);
         }
 
+        public bool UpdateRangeUser(List<User> users)
+        {
+            try
+            {
+                context.Users.UpdateRange(users);
+                context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }

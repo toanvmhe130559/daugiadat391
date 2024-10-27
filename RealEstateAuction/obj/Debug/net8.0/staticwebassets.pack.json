@@ -1,259 +1,291 @@
 {
   "Files": [
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateAuction.bundle.scp.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateAuction.bundle.scp.css",
       "PackagePath": "staticwebassets\\RealEstateAuction.bundle.scp.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\css\\EnterOtp.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\css\\EnterOtp.css",
       "PackagePath": "staticwebassets\\css\\EnterOtp.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\css\\site.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\css\\styles.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\favicon.ico",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\js\\myJs.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\155213d3-6a18-4fcd-b5c1-8ce687834c19.jpg",
+      "PackagePath": "staticwebassets\\img\\155213d3-6a18-4fcd-b5c1-8ce687834c19.jpg"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\1f2a3879-cff2-4197-8c96-870b51325148.jpg",
+      "PackagePath": "staticwebassets\\img\\1f2a3879-cff2-4197-8c96-870b51325148.jpg"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\61d57748-5489-44f6-a590-dfbba1cfd0bf.jpg",
+      "PackagePath": "staticwebassets\\img\\61d57748-5489-44f6-a590-dfbba1cfd0bf.jpg"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\6267a1b8-a6c3-46b9-920e-bae91cbc8ba3.jpg",
+      "PackagePath": "staticwebassets\\img\\6267a1b8-a6c3-46b9-920e-bae91cbc8ba3.jpg"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\da744dc0-dcb7-4927-be57-185b75992917.jpg",
+      "PackagePath": "staticwebassets\\img\\da744dc0-dcb7-4927-be57-185b75992917.jpg"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\e14154e8-b5e4-49b8-8454-7bddfcec246f.png",
+      "PackagePath": "staticwebassets\\img\\e14154e8-b5e4-49b8-8454-7bddfcec246f.png"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\e52792c6-27a8-402f-91ed-9d4163cc08d6.jpg",
+      "PackagePath": "staticwebassets\\img\\e52792c6-27a8-402f-91ed-9d4163cc08d6.jpg"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\js\\myJs.js",
       "PackagePath": "staticwebassets\\js\\myJs.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\js\\site.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

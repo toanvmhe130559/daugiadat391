@@ -24,6 +24,7 @@
     {
         homePage = "/home";
     }
+    var DataSearch = (SearchDataModel)ViewData["DataSearch"];
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +47,7 @@
             <a href="@homePage"
                class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none cursor-pointer">
                 <!-- LOGO -->
-                <img src="https://image.invaluable.com/static/header/IN_Red32.svg" alt="Invaluable" />
+                <img src="~/img/logo.jpg" alt="Invaluable" />
             </a>
 
             <div class="col-12 col-md-5 mb-2 justify-content-center mb-md-0 gap-md-5">
@@ -55,7 +56,7 @@
                         <span class="input-group-text" id="basic-addon1">
                             <i class="fa-solid fa-magnifying-glass primary-color"></i>
                         </span>
-                        <input type="text" class="form-control" value="" name="keyword" placeholder="Tìm kiếm theo phiên đấu giá và chủ phiên" aria-label="search"
+                        <input type="text" class="form-control" value="@(DataSearch?.Keyword ?? "")" name="keyword" placeholder="Tìm kiếm theo phiên đấu giá và chủ phiên" aria-label="search"
                                aria-describedby="basic-addon1">
                     </div>
                 </form>
@@ -78,6 +79,21 @@
                     }
                     else
                     {
+                        @if (User.FindFirstValue(ClaimTypes.Role) == "Member")
+                        {
+                            <span class="fw-bold ">
+                                Số dư:&nbsp;
+                                <span class="text-danger">
+                                    @{
+                                        string formattedWalletValue = user.Wallet.ToString("N1").TrimEnd('0').TrimEnd(',') + "đ";
+                                    }
+                                    @formattedWalletValue
+                                </span>
+                            </span>
+                            <a class="btn btn-outline-secondary text-nowrap" href="/top-up">
+                                Nạp tiền
+                            </a>
+                        }
                         <!-- If login, show this -->
                         <div class="dropdown">
                             <a href="#" class="d-flex align-items-center link-dark text-decoration-none cursor-pointer dropdown-toggle"
@@ -222,7 +238,7 @@
                         <div class="col-12 col-md-7 col-lg-7">
                             <div class="">
                                 <img class="_logo-img_a506i_11"
-                                     src="https://image.invaluable.com/static/header/IN_Red32.svg"
+                                     src="~/img/logo.jpg"
                                      alt="Invaluable Logo">
                                 <p class="mt-4">
                                     Là thị trường đấu giá trực tuyến hàng đầu thế giới, hàng nghìn cuộc đấu giá

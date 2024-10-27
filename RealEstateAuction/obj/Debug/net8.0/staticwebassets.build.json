@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UuMhPH+yL6SdDgA+TWUWWmON9avhZNb2dNKHK+ug+Gg=",
+  "Hash": "04btKFJ0FZiF3ItcZW0Nt7NTBv8CdEwa5zgYcRhl1wA=",
   "Source": "RealEstateAuction",
   "BasePath": "_content/RealEstateAuction",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RealEstateAuction\\wwwroot",
       "Source": "RealEstateAuction",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateAuction.styles.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateAuction.styles.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "RealEstateAuction.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateAuction.styles.css"
+      "OriginalItemSpec": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateAuction.styles.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateAuction.bundle.scp.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateAuction.bundle.scp.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "RealEstateAuction.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateAuction.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateAuction.bundle.scp.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\css\\EnterOtp.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\css\\EnterOtp.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "css/EnterOtp.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\EnterOtp.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\css\\site.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\css\\styles.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\css\\styles.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\favicon.ico",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,10 +131,162 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\js\\myJs.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\155213d3-6a18-4fcd-b5c1-8ce687834c19.jpg",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/155213d3-6a18-4fcd-b5c1-8ce687834c19.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\155213d3-6a18-4fcd-b5c1-8ce687834c19.jpg"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\1f2a3879-cff2-4197-8c96-870b51325148.jpg",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/1f2a3879-cff2-4197-8c96-870b51325148.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1f2a3879-cff2-4197-8c96-870b51325148.jpg"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\61d57748-5489-44f6-a590-dfbba1cfd0bf.jpg",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/61d57748-5489-44f6-a590-dfbba1cfd0bf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\61d57748-5489-44f6-a590-dfbba1cfd0bf.jpg"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\6267a1b8-a6c3-46b9-920e-bae91cbc8ba3.jpg",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/6267a1b8-a6c3-46b9-920e-bae91cbc8ba3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\6267a1b8-a6c3-46b9-920e-bae91cbc8ba3.jpg"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\da744dc0-dcb7-4927-be57-185b75992917.jpg",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/da744dc0-dcb7-4927-be57-185b75992917.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\da744dc0-dcb7-4927-be57-185b75992917.jpg"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\e14154e8-b5e4-49b8-8454-7bddfcec246f.png",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/e14154e8-b5e4-49b8-8454-7bddfcec246f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\e14154e8-b5e4-49b8-8454-7bddfcec246f.png"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\e52792c6-27a8-402f-91ed-9d4163cc08d6.jpg",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/e52792c6-27a8-402f-91ed-9d4163cc08d6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\e52792c6-27a8-402f-91ed-9d4163cc08d6.jpg"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\img\\logo.jpg",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
+      "BasePath": "_content/RealEstateAuction",
+      "RelativePath": "img/logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.jpg"
+    },
+    {
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\js\\myJs.js",
+      "SourceId": "RealEstateAuction",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "js/myJs.js",
       "AssetKind": "All",
@@ -150,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\js\\myJs.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\js\\site.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -169,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -188,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -207,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -226,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -245,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -264,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -283,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -302,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -321,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -340,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -359,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -378,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -397,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -416,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -435,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -454,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -492,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -511,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -530,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -549,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -568,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -587,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -606,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -625,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -644,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -663,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -682,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -701,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -720,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -739,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -758,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -777,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -796,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -815,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -834,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -853,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -872,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -891,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -910,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -929,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -948,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -967,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -986,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1005,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1024,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1043,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1062,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1081,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1100,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1119,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1138,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1157,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1176,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1195,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1214,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1233,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "RealEstateAuction",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\daugiadat_391\\daugiadat391\\RealEstateAuction\\wwwroot\\",
+      "ContentRoot": "D:\\Support\\VuToan\\Template\\Real_Estate_Auction_System-main\\RealEstateAuction\\wwwroot\\",
       "BasePath": "_content/RealEstateAuction",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

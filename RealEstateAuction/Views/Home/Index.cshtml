@@ -196,6 +196,12 @@
                                         auctionStatus = "Sắp diễn ra";
                                         btnType = "btn-warning";
                                     }
+
+                                    else if (item.EndTime < DateTime.Now)
+                                    {
+                                        auctionStatus = "Hết thời gian đấu giá";
+                                        btnType = "btn-secondary";
+                                    }
                                     else
                                     {
                                         auctionStatus = "Đang diễn ra";

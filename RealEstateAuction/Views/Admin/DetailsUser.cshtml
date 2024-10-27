@@ -1,0 +1,79 @@
+﻿@model RealEstateAuction.Models.User
+@using RealEstateAuction.Enums
+@{
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+    ViewData["Title"] = "Thông tin người dùng";
+
+    var RoleName = "";
+    if (Model.Role.Id == (int)Roles.Staff)
+    {
+        RoleName = "Quản lý";
+    }
+    else if (Model.Role.Id == (int)Roles.Member)
+    {
+        RoleName = "Thành viên";
+    }
+}
+<h2>Chi tiết thông tin tài khoản</h2>
+<hr>
+<div class="row">
+    <div class="col-6">
+        <div class="input-group mt-3">
+            <span class="input-group-text">Họ và tên</span>
+            <input asp-for=FullName type="text" class="form-control" value="@Model.FullName" readonly>
+        </div>
+
+        <div class="input-group mt-3">
+            <span class="input-group-text">Email</span>
+            <input asp-for=Email type="text" class="form-control" value="@Model.Email" readonly />
+        </div>
+
+        <div class="input-group mt-3">
+            <span class="input-group-text">Số điện thoại</span>
+            <input asp-for=Phone type="text" class="form-control" value="@Model.Phone" readonly>
+        </div>
+
+        <div class="input-group mt-3">
+            <span class="input-group-text">Ngày sinh</span>
+            <input asp-for=Dob type="text" class="form-control" value="@Model.Dob.ToString("dd/MM/yyyy")" readonly>
+        </div>
+
+        <div class="input-group mt-3">
+            <span class="input-group-text">Địa chỉ</span>
+            <input asp-for=Address type="text" class="form-control" value="@Model.Address" readonly>
+        </div>
+
+        <div class="input-group mt-3">
+            <span class="input-group-text">
+                Vai trò
+            </span>
+            <input asp-for=Role type="text" class="form-control" readonly value="@RoleName" />
+        </div>
+
+        <div class="input-group mt-3">
+            <span class="me-3">
+                Trạng thái:
+            </span>
+            <div>
+                <form action="/update-user" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    @if ((Status)Model.Status == Status.Active)
+                    {
+                        <input type="hidden" name="status" value="@((int)Status.Deactive)" />
+                        <button type="submit" class="btn btn-primary btn-sm" style="width: 150px">Đang hoạt động</button>
+                    }
+                    else
+                    {
+                        <input type="hidden" name="status" value="@((int)Status.Active)" />
+                        <button type="submit" class="btn btn-danger btn-sm" style="width: 150px">Ngừng hoạt động</button>
+                    }
+                </form>
+            </div>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center">
+            <a class="btn btn-primary mt-3" onclick="GoBack()">Quay lại</a>
+        </div>
+    </div>
+</div>
+

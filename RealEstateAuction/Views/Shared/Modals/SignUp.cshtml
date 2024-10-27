@@ -8,8 +8,8 @@
             </div>
             <div class="modal-body">
                 <div class="text-center mb-2">
-                    <h1>Bắt đầu</h1>
-                    <span><h5>Tạo tài khoản để thực hiện đấu giá nhanh chóng và dễ dàng.</h5></span>
+                    <h3>Bắt đầu tạo tài khoản</h3>
+                    <p>Tạo tài khoản để thực hiện đấu giá nhanh chóng và dễ dàng.</p>
                 </div>
                 <form action="register" method="post" class="text-center">
                     <div class="form-floating mb-3">
@@ -21,11 +21,20 @@
                         <label for="email">Địa chỉ email</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="pwd" name="pwd" required>
+                        <input type="password" class="form-control" id="pwd" name="pwd"
+                               pattern="(?=.*\d)(?=.*[@@$!%*?&])[A-Za-z\d@@$!%*?&]{8,}"
+                               required
+                               oninvalid="this.setCustomValidity('Mật khẩu phải chứa ít nhất 8 ký tự, bao gồm ít nhất 1 ký tự đặc biệt và 1 số.')"
+                               oninput="this.setCustomValidity('')">
                         <label for="pwd">Mật khẩu</label>
+                        <div class="invalid-feedback">
+                            Mật khẩu phải chứa ít nhất 8 ký tự, bao gồm ít nhất 1 ký tự đặc biệt và 1 số.
+                        </div>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" required>
+                        <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" required
+                               oninvalid="this.setCustomValidity('Số điện thoại định dạng Việt Nam, bao gồm 10 chữ số.')"
+                               oninput="this.setCustomValidity('')">
                         <label for="phone">Số điện thoại</label>
                     </div>
                     <div class="form-floating mb-3">

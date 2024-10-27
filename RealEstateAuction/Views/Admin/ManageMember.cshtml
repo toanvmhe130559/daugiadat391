@@ -30,6 +30,7 @@ Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.Page
                     <td class="text-center">@(item.Dob.ToShortDateString())</td>
                     <td class="text-center">@item.Phone</td>
                     <td class="text-center">
+                        <a href="/details-user?userId=@item.Id" class="btn btn-info">Xem</a>
                         <form action="/update-user" method="post">
                             <input type="hidden" name="id" value="@item.Id" />
                             @if ((Status)item.Status == Status.Active)
