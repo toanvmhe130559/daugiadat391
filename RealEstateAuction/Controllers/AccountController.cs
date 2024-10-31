@@ -267,6 +267,23 @@ namespace RealEstateAuction.Controllers
 
                 //Update Auction to database
                 auctionDAO.EditAuction(auction);
+
+                // Get the current login user
+                var userId = Int32.Parse(User.FindFirstValue("Id"));
+
+                // Return the fee to the participants except the winner
+                foreach (var userJoin in auction.Users)
+                {
+                    if (userJoin.Id != userId)
+                    {
+                        // Get user by Id
+                        var userById = userDAO.GetUserById(userJoin.Id);
+
+                        // Update the wallet of the user
+                        userById.Wallet += DataModel.Constant.Fee;
+                        userDAO.UpdateUser(userById);
+                    }
+                }
             }
             //If bidding price is valid add to database
             //Map to AuctionBidding model

@@ -278,7 +278,7 @@ namespace RealEstateAuction.Controllers
             return Redirect("list-auction-admin");
         }
 
-        [Authorize(Roles = "Staff")]
+        [Authorize(Roles = "Admin")]
         [HttpGet("confirm-auction")]
         public IActionResult ConfirmAuction(int auctionId, int status)
         {
